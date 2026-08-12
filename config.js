@@ -67,8 +67,8 @@ const USEFUL_LINKS = [
 ];
 
 const CONTACT_LINKS = [
-  { label: { en: "Email", fa: "ایمیل" }, value: "alisinai850@gmail.com", href: "mailto:alisinai850@gmail.com", icon: "✉️" },
-  { label: { en: "Phone", fa: "تلفن" }, value: "+98 910 420 4630", href: "tel:+989104204630", icon: "📞" },
-  { label: { en: "GitHub", fa: "گیت‌هاب" }, value: "github.com/Ali-Sinai", href: "https://github.com/Ali-Sinai", icon: "🐙" },
-  { label: { en: "LinkedIn", fa: "لینکدین" }, value: "linkedin.com/in/ali-sinaipour", href: "https://www.linkedin.com/in/ali-sinaipour", icon: "💼" },
+  { label: { en: "Email", fa: "ایمیل" }, value: "alisinai850@gmail.com", href: "mailto:alisinai850@gmail.com", icon: "mail" },
+  { label: { en: "Phone", fa: "تلفن" }, value: "+98 910 420 4630", href: "tel:+989104204630", icon: "phone" },
+  { label: { en: "GitHub", fa: "گیت‌هاب" }, value: "github.com/Ali-Sinai", href: "https://github.com/Ali-Sinai", icon: "github" },
+  { label: { en: "LinkedIn", fa: "لینکدین" }, value: "linkedin.com/in/ali-sinaipour", href: "https://www.linkedin.com/in/ali-sinaipour", icon: "linkedin" },
 ];
