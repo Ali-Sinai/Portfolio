@@ -39,7 +39,6 @@
     localStorage.setItem(STORAGE_LANG, lang);
     renderProjects(lang);
     renderExperience(lang);
-    renderLinks(lang);
     renderContact(lang);
   }
 
@@ -104,21 +103,6 @@
         <p class="desc">${localized(e.description, lang)}</p>
       `;
       list.appendChild(item);
-    });
-  }
-
-  function renderLinks(lang) {
-    const list = document.getElementById("linksList");
-    list.innerHTML = "";
-    USEFUL_LINKS.forEach((l) => {
-      const li = document.createElement("li");
-      const a = document.createElement("a");
-      a.href = l.url;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      a.textContent = localized(l.label, lang);
-      li.appendChild(a);
-      list.appendChild(li);
     });
   }
 

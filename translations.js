@@ -8,7 +8,6 @@ const TRANSLATIONS = {
       skills: "Skills",
       projects: "Projects",
       experience: "Experience",
-      links: "Links",
       contact: "Contact",
     },
     hero: {
@@ -37,9 +36,6 @@ const TRANSLATIONS = {
     experience: {
       title: "Work Experience",
     },
-    links: {
-      title: "Useful Links",
-    },
     contact: {
       title: "Contact",
       intro: "Feel free to reach out — I'm happy to talk backend systems, architecture, or opportunities.",
@@ -58,7 +54,6 @@ const TRANSLATIONS = {
       skills: "مهارت‌ها",
       projects: "پروژه‌ها",
       experience: "سوابق کاری",
-      links: "لینک‌های مفید",
       contact: "تماس",
     },
     hero: {
@@ -86,9 +81,6 @@ const TRANSLATIONS = {
     },
     experience: {
       title: "سوابق کاری",
-    },
-    links: {
-      title: "لینک‌های مفید",
     },
     contact: {
       title: "تماس",

@@ -61,11 +61,6 @@ const EXPERIENCE = [
   },
 ];
 
-const USEFUL_LINKS = [
-  { label: { en: "GitHub Profile", fa: "پروفایل گیت‌هاب" }, url: "https://github.com/Ali-Sinai" },
-  { label: { en: "LinkedIn", fa: "لینکدین" }, url: "https://www.linkedin.com/in/ali-sinaipour" },
-];
-
 const CONTACT_LINKS = [
   { label: { en: "Email", fa: "ایمیل" }, value: "alisinai850@gmail.com", href: "mailto:alisinai850@gmail.com", icon: "mail" },
   { label: { en: "Phone", fa: "تلفن" }, value: "+98 910 420 4630", href: "tel:+989104204630", icon: "phone" },
