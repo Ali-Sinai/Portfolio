@@ -31,7 +31,8 @@ const TRANSLATIONS = {
     },
     projects: {
       title: "Projects",
-      linkLabel: "View →",
+      repoLabel: "Repo →",
+      liveLabel: "Live ↗",
     },
     experience: {
       title: "Work Experience",
@@ -77,7 +78,8 @@ const TRANSLATIONS = {
     },
     projects: {
       title: "پروژه‌ها",
-      linkLabel: "مشاهده ←",
+      repoLabel: "مخزن کد ←",
+      liveLabel: "نسخه‌ی زنده ↗",
     },
     experience: {
       title: "سوابق کاری",

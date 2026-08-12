@@ -293,6 +293,13 @@ html[dir="rtl"] body { font-family: var(--font-fa); }
   font-weight: 600;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
 .project-link {
   color: var(--accent-2);
   text-decoration: none;
@@ -301,6 +308,15 @@ html[dir="rtl"] body { font-family: var(--font-fa); }
 }
 
 .project-link:hover { text-decoration: underline; }
+
+.project-link--live {
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.project-link--live:hover { text-decoration: none; opacity: .85; }
 
 /* Timeline / Experience */
 .timeline {

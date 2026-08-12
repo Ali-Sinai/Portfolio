@@ -19,6 +19,7 @@ const PROJECTS = [
     },
     tags: ["TypeScript", "Next.js", "AI"],
     link: "https://github.com/Ali-Sinai/meridian-ai",
+    url: "https://meridian.alisinaipour.ir/",
   },
   {
     title: { en: "Dribble — Design Marketplace", fa: "Dribble — بازارچه طراحی" },
@@ -28,6 +29,7 @@ const PROJECTS = [
     },
     tags: ["TypeScript", "Full Stack", "pnpm"],
     link: "https://github.com/Ali-Sinai/dribble",
+    url: "https://ghab.alisinaipour.ir/",
   },
   {
     title: { en: "Market Place", fa: "Market Place" },

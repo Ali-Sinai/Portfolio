@@ -76,15 +76,30 @@
       });
       card.appendChild(tags);
 
+      const links = document.createElement("div");
+      links.className = "project-links";
+
       if (p.link) {
         const a = document.createElement("a");
         a.className = "project-link";
         a.href = p.link;
         a.target = "_blank";
         a.rel = "noopener noreferrer";
-        a.textContent = TRANSLATIONS[lang].projects.linkLabel;
-        card.appendChild(a);
+        a.textContent = TRANSLATIONS[lang].projects.repoLabel;
+        links.appendChild(a);
       }
+
+      if (p.url) {
+        const a = document.createElement("a");
+        a.className = "project-link project-link--live";
+        a.href = p.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = TRANSLATIONS[lang].projects.liveLabel;
+        links.appendChild(a);
+      }
+
+      if (links.childElementCount > 0) card.appendChild(links);
 
       grid.appendChild(card);
     });
