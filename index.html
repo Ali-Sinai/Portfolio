@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sina — Backend Developer (.NET)</title>
+<meta name="description" content="Sina — Backend / .NET Developer, Shahed University student, aspiring software architect." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a href="#hero" class="brand" data-i18n="brand">Sina</a>
+  <nav class="mainnav" aria-label="Primary">
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#skills" data-i18n="nav.skills">Skills</a>
+    <a href="#projects" data-i18n="nav.projects">Projects</a>
+    <a href="#experience" data-i18n="nav.experience">Experience</a>
+    <a href="#links" data-i18n="nav.links">Links</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="topbar-actions">
+    <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme" title="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+    <button id="langToggle" class="lang-btn" type="button" aria-label="Toggle language">
+      <span id="langToggleLabel">فا</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section id="hero" class="section hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Hello, I'm</p>
+      <h1 class="hero-name" data-i18n="hero.name">Sina</h1>
+      <h2 class="hero-role" data-i18n="hero.role">Backend Developer · C# / .NET</h2>
+      <p class="hero-tagline" data-i18n="hero.tagline">
+        Building reliable, well-architected backend systems — one clean abstraction at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects">View Projects</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.ctaContact">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">About</h2>
+      <p class="about-text" data-i18n="about.body">
+        I'm a backend developer focused on C# and the .NET ecosystem, currently studying at Shahed University.
+        I care about clean architecture, domain-driven design, CQRS and event-driven systems — the kind of
+        structure that keeps a codebase sane as it grows. I run Linux (Fedora) daily, enjoy digging into the
+        "why" behind design patterns, and I'm steadily working toward senior developer and, eventually,
+        software architecture roles.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3 data-i18n="skills.languages.title">Languages &amp; Frameworks</h3>
+          <ul class="tag-list">
+            <li>C#</li><li>.NET (latest)</li><li>EF Core</li><li>ASP.NET Core</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.architecture.title">Architecture &amp; Patterns</h3>
+          <ul class="tag-list">
+            <li>CQRS (MediatR)</li><li>DDD</li><li>Event-Driven Architecture</li><li>Unit of Work</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.infra.title">Infra &amp; Tooling</h3>
+          <ul class="tag-list">
+            <li>RabbitMQ</li><li>OpenTelemetry</li><li>JWT Auth</li><li>Docker</li><li>Linux (Fedora)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.other.title">Other</h3>
+          <ul class="tag-list">
+            <li>PostgreSQL</li><li>Go (basic)</li><li>pnpm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="projects.title">Projects</h2>
+      <div id="projectsGrid" class="projects-grid"></div>
+    </div>
+  </section>
+
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2 class="section-title" data-i18n="experience.title">Work Experience</h2>
+      <div id="experienceList" class="timeline"></div>
+    </div>
+  </section>
+
+  <section id="links" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="links.title">Useful Links</h2>
+      <ul id="linksList" class="links-list"></ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+      <p class="contact-intro" data-i18n="contact.intro">Feel free to reach out — I'm happy to talk backend systems, architecture, or opportunities.</p>
+      <ul id="contactList" class="contact-list"></ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span data-i18n="footer.text">© 2026 Sina. Built with plain HTML, CSS &amp; JS.</span>
+  </div>
+</footer>
+
+<script src="translations.js"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
