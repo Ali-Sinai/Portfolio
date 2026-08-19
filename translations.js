@@ -43,7 +43,7 @@ const TRANSLATIONS = {
       intro: "Feel free to reach out — I'm happy to talk backend systems, architecture, or opportunities.",
     },
     footer: {
-      text: "Built with 🩵",
+      text: "© 2026 Ali Sinaie Pour, Built with 🩵",
     },
     placeholder: "Coming soon",
   },
@@ -88,10 +88,10 @@ const TRANSLATIONS = {
     },
     contact: {
       title: "تماس",
-      intro: "خوشحال می‌شوم در ارتباط باشیم — درباره سیستم‌های بک‌اند، معماری نرم‌افزار یا فرصت‌های همکاری صحبت کنیم.",
+      intro: "خوشحال می‌شوم در ارتباط باشیم",
     },
     footer: {
-      text: "© ۱۴۰۵ علی سینایی‌پور. ساخته‌شده با HTML، CSS و JS ساده.",
+      text: "© ۱۴۰۵ علی سینایی‌ پور، ساخته‌شده با 🩵",
     },
     placeholder: "به‌زودی",
   },
