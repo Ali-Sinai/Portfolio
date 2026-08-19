@@ -148,7 +148,7 @@ html[dir="rtl"] body { font-family: var(--font-fa); }
 
 .hero-inner { max-width: 720px; }
 
-.eyebrow {
+.eyebrow, .underline{
   color: var(--accent);
   font-weight: 600;
   letter-spacing: .04em;

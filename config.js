@@ -45,7 +45,7 @@ const PROJECTS = [
 const EXPERIENCE = [
   {
     role: { en: "Junior Backend Developer", fa: "برنامه‌نویس بک‌اند جونیور" },
-    company: { en: "Kashef Banking Security", fa: "کاشف امنیت بانکی" },
+    company: { en: "Kashef Banking Security", fa: "امن الکترونیک کاشف" },
     dates: { en: "2024 – Present", fa: "۱۴۰۳ – اکنون" },
     description: {
       en: "Designed and developed backend services for greenfield and legacy modernization projects using .NET. Implemented asynchronous messaging with RabbitMQ and containerized applications with Docker.",
